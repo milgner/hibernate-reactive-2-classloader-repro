@@ -1,0 +1,13 @@
+{
+  "database": {
+    "url": "postgresql://localhost/rebased-development",
+    "username": "rebased",
+    "password": "rebased"
+  },
+  "http": {
+    "port": 3000
+  },
+  "rabbitmq": {
+    "uri": "amqp://extrusionos:extrusionos@localhost:5672"
+  }
+}
