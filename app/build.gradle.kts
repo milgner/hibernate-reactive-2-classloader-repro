@@ -38,7 +38,7 @@ dependencies {
         because("Dependency Injection!")
     }
     implementation("io.vertx:vertx-pg-client:$vertxVersion")
-    implementation("org.hibernate.reactive:hibernate-reactive-core-jakarta:1.1.9.Final")
+    implementation("org.hibernate.reactive:hibernate-reactive-core:2.0.0.Alpha2")
     implementation("com.linecorp.kotlin-jdsl:hibernate-reactive-kotlin-jdsl-jakarta:2.2.1.RELEASE") {
         because("Smooth type-safe querying for Hibernate")
     }

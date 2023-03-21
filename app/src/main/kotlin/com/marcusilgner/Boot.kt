@@ -131,7 +131,7 @@ object Boot : Logging {
         val configuration = Configuration()
         configuration
             .setProperty(
-                Settings.JAKARTA_JPA_PERSISTENCE_PROVIDER,
+                Settings.JAKARTA_PERSISTENCE_PROVIDER,
                 "org.hibernate.reactive.provider.ReactivePersistenceProvider",
             )
             .setProperty(Settings.DIALECT, "org.hibernate.dialect.PostgreSQL10Dialect")

@@ -30,6 +30,6 @@ dependencies {
     compileOnly("io.vertx:vertx-reactive-streams:$vertxVersion")
     compileOnly("org.pf4j:pf4j:$pf4jVersion")
     compileOnly("org.apache.logging.log4j:log4j-api-kotlin:1.2.0")
-    compileOnly("org.hibernate.reactive:hibernate-reactive-core-jakarta:1.1.9.Final")
+    implementation("org.hibernate.reactive:hibernate-reactive-core:2.0.0.Alpha2")
     compileOnly("org.kodein.di:kodein-di:7.18.0")
 }

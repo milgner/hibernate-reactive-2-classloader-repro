@@ -25,7 +25,7 @@ dependencies {
     implementation("org.pf4j:pf4j:$pf4jVersion")
     implementation("io.vertx:vertx-core:$vertxVersion")
     implementation("io.vertx:vertx-lang-kotlin-coroutines:$vertxVersion")
-    implementation("org.hibernate.reactive:hibernate-reactive-core-jakarta:1.1.9.Final")
+    implementation("org.hibernate.reactive:hibernate-reactive-core:2.0.0.Alpha2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4")
     implementation("com.linecorp.kotlin-jdsl:hibernate-reactive-kotlin-jdsl-jakarta:2.2.1.RELEASE")
